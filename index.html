@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Music Player </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://kit.fontawesome.com/da6c19888d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Header Section - Navigation -->
+
+  <header class="nav-bar">
+    <div class="logo">
+      <img src="./images/logo.png" alt="logo">
+    </div>
+
+    <div>
+      <a href="#">
+        <h3 class="text-hover">Favourites</h3>
+      </a>
+    </div>
+
+    <div class="search-box">
+      <form action="">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fas fa-microphone"></i></button>
+      </form>
+    </div>
+
+    <div class="">
+      <a href="#"> <i class="fa-solid fa-bell"></i></a>
+    </div>
+
+    <div class="">
+      <a href="#"> <i class="fas fa-user-circle"></i></a>
+    </div>
+  </header>
+
+
+  <div class="playlist-screen-page">
+    <!-- Playlist screen page structure and design except navigation and footer. -->
+    <main>
+      <!-- Main Section includes first section(Feed post) and second section(feed playlist).-->
+
+      <div id="post">
+        <img src="./images/band.jpg">
+        <div id="description">
+          <div id="heading"> Sanam band </div>
+          <div class="header-div grey-color">
+            <span> Indian band </span>
+            <div> 81.5k followers </div>
+          </div>
+
+          <p class="grey-color"> Sanam is an Indian pop rock band formed in 2010 known for its renditions of old classic Indian Bollywood songs as well as original music. In 2016, the band was amongst India's top 10 independent YouTube Channels. </p>
+
+          <button id="play-button"> Play all </button>
+          <button id="follow-button"> Follow </button>
+          <span id="band-work"> 247 Tracks | 128 Albums </span>
+        </div>
+      </div>
+
+      <!-- Second section includes feed playlist. -->
+      <div>
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 01 </div>
+            <div class="song-image">
+              <img src="./images/Ekladki.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Ek ladki ko dekha to </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 02 </div>
+            <div class="song-image">
+              <img src="./images\O mere dil ke chain.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> O mere dil ke chain </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 03 </div>
+            <div class="song-image">
+              <img src="./images\Hai Apna dil.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Hai apna dil to aawara </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 04 </div>
+            <div class="song-image">
+              <img src="./images\mere mehboob.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Mere Mehboob Qayamat Hogi </div>
+              <span class="singer-name"> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 05 </div>
+            <div class="song-image">
+              <img src="./images\O mere dil ke chain.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> O mere dil ke chain </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 06 </div>
+            <div class="song-image">
+              <img src="./images\mere mehboob.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Mere Mehboob Qayamat Hogi </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 07 </div>
+            <div class="song-image">
+              <img src="./images\Ekladki.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Ek ladki ko dekha to </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song">
+          <div class="left-content">
+            <div class="number-style"> 08 </div>
+            <div class="song-image">
+              <img src="./images\mere mehboob.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Mere Mehboob Qayamat Hogi </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside>
+
+      <!-- Aside includes third (Similar artists) and forth (recently played) section -->
+      <div>
+        <div class="header-div">
+          <div id="heading"> Similar Artists</div>
+          <div> View All </div>
+        </div>
+
+        <div class="similar-artists-song">
+          <div class="left-content">
+            <div class="song-image">
+              <img src="./images\mujse shadi karogi.jpg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Mujse Shadi Karogi </div>
+              <span> Udit Narayan </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <div> ... </div>
+            <div> 4.44 </div>
+          </div>
+        </div>
+
+        <div class="similar-artists-song">
+          <div class="left-content">
+            <div class="song-image">
+              <img src="./images\kal ho na ho.jpg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Kal ho na ho </div>
+              <span> Sonu Nigam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <div> ... </div>
+            <div> 3.23 </div>
+          </div>
+        </div>
+
+
+        <div class="similar-artists-song">
+          <div class="left-content">
+            <div class="song-image">
+              <img src="./images\O re piya.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> O re piya </div>
+              <span> Rahat Fateh Ali Khan </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <div> ... </div>
+            <div> 1.39 </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="recently-played">
+        <div class="header-div">
+          <div id="heading"> Recently Played</div>
+          <div> View All </div>
+        </div>
+
+        <div class="playlist-song no-bg">
+          <div class="left-content">
+            <div class="number-style"> 01 </div>
+            <div class="song-image">
+              <img src="./images\Ekladki.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Ek ladki ko dekha to </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song no-bg">
+          <div class="left-content">
+            <div class="number-style"> 02 </div>
+            <div class="song-image">
+              <img src="./images\O mere dil ke chain.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> O mere dil ke chain </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song no-bg">
+          <div class="left-content">
+            <div class="number-style"> 03 </div>
+            <div class="song-image">
+              <img src="./images\Hai Apna dil.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Hai apna dil to aawara </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song no-bg">
+          <div class="left-content">
+            <div class="number-style"> 04 </div>
+            <div class="song-image">
+              <img src="./images\mere mehboob.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Mere Mehboob </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song no-bg">
+          <div class="left-content">
+            <div class="number-style"> 05 </div>
+            <div class="song-image">
+              <img src="./images\Ekladki.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Ek ladki ko dekha to </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song no-bg">
+          <div class="left-content">
+            <div class="number-style"> 06 </div>
+            <div class="song-image">
+              <img src="./images\mere mehboob.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Mere Mehboob </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+        <div class="playlist-song no-bg">
+          <div class="left-content">
+            <div class="number-style"> 03 </div>
+            <div class="song-image">
+              <img src="./images\Hai Apna dil.jpeg">
+            </div>
+
+            <div>
+              <div class="bold-font"> Hai apna dil to aawara </div>
+              <span> Sanam </span>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+
+    </aside>
+  </div>
+
+  <!--    Footer Section   -->
+  <footer>
+    <div class="footer-style">
+      <!-- Footer is divided in three sections-start, mid and end. -->
+      <div class="footer-start inline-block-display">
+        <div class="song-image margin-side-8px">
+          <img src="./images\Ekladki.jpeg">
+        </div>
+
+        <div class="margin-side-8px">
+          <div class="bold-font"> Ek Ladki ko dekha </div>
+          <span> Sanam </span>
+        </div>
+
+        <i class="fa-regular fa-heart margin-8px"></i>
+        <i class="fa-solid fa-ban margin-8px"></i>
+      </div>
+
+      <!-- Footer mid -->
+
+      <div class="footer-mid icons-style">
+        <i class="fa-solid fa-shuffle"></i>
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-pause"></i>
+        <i class="fa-solid fa-forward-step"></i>
+        <i class="fa-solid fa-repeat"></i>
+        <div class="slider">
+          <span class="margin-side-8px"> 01.22 </span>
+          <input type="range" name="volume">
+          <span class="margin-side-8px"> 04.56 </span>
+        </div>
+      </div>
+
+      <!-- Footer end -->
+      <div class="footer-end icons-style">
+        <i class="fa-solid fa-indent"></i>
+        <i class="fa-solid fa-laptop-file"></i>
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" name="volume">
+        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
